@@ -1,0 +1,12 @@
+<div>
+    <select ng-change='chnageEvent(flag)' ng-model='flag'>
+        <option value="cn">中文</option>
+        <option value="en">English</option>
+    </select>
+    <ul>
+        <li>{{"name" | translate}}</li>
+        <li>{{"title" | translate}}</li>
+        <li translate='address'></li>
+        <li translate='price'></li>
+    </ul>
+</div>

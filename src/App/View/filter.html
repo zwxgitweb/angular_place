@@ -1,0 +1,45 @@
+<style>
+    *{margin: 0;padding: 0;box-sizing: border-box;}
+    h1{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+    h1 span{
+        font-size: 18px;
+        color: #f22;
+        padding-left: 60px;
+    }
+    .table{
+        width: 300px;
+        height: auto;
+        margin: 30px auto;
+        border: 2px solid rgb(20, 154, 207);
+    }
+    table thead td{
+        background: skyblue;
+        border-bottom: 2px solid rgb(20, 154, 207);
+    }
+    table td{
+        text-align: center;
+    }
+    table td:first-child{
+        border-right: 1px solid #ccc;
+    }
+</style>
+<div>
+    <h1>filter <span>- +</span></h1>
+    <table class="table">
+        <thead>
+            <td ng-click='click("name")'>name</td>
+            <td ng-click='click("age")'>age</td>
+        </thead>
+        <tbody>
+            <tr ng-repeat='item in info | orderBy: inf: flag'>
+                <td ng-bind='item.name'></td>
+                <td ng-bind='item.age'></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

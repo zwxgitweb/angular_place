@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app' ng-controller="webCtr">
+<head ng-controller="webCtr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title ng-bind='title'></title>
+    <link rel="stylesheet" href="src/Assets/css/style.css">
+    <link rel="stylesheet" href="src/Assets/css/ionic.css">
+    <link rel="stylesheet" href="src/ionicons-2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="src/Assets/css/bootstrap.min.css">
+    <script src='src/Assets/js/angular.min.js'></script>
+    <script src='src/Assets/js/angular-ui-router.js'></script>
+    <script src='src/Assets/js/jquery-2.1.1.min.js'></script>
+    <script src='src/Assets/js/ionic.bundle.min.js'></script>
+    <script src='src/Assets/js/angular-translate.min.js'></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 头部信息 -->
+        <header class="bar bar-header bar-assertive">
+            <i ng-click="backaAtivePage()" class="icon ion-arrow-left-a"></i>
+            <h2 class="title">welcome to my web</h2>
+            <i class="icon ion-compose"></i>
+        </header>
+        <!-- 路由模板 -->
+        <ui-view class='view' direction></ui-view>
+        <!-- 尾部信息 -->
+        <footer class="tabs tabs-icon-top footer tabs-light">
+            <a class="active tab-item" ui-sref='active({current: "active"})'><i class="icon ion-pinpoint royal"></i><em>我的</em></a>
+            <a ui-sref='International({current: "International"})' class="tab-item"><i class="icon ion-lock-combination balanced"></i><em>International</em></a>
+            <a ui-sref='filter({current: "filter"})' class="tab-item"><i class="icon ion-ios-star-half energized"></i><em>filter</em></a>
+            <a ui-sref='food({current: "food"})' class="tab-item"><i class="icon ion-wineglass assertive"></i><em>美食</em></a>
+        </footer>
+    </div>
+    <script src='src/App/app.js'></script>
+
+    <script src='src/App/Service/ajaxService.js'></script>
+
+    <script src='src/App/Directive/conDir.js'></script>
+
+    <script src='src/App/Controller/webCtr.js'></script>
+    <script src='src/App/Controller/activeCtr.js'></script>
+    <script src='src/App/Controller/foodCtr.js'></script>
+</body>
+</html>

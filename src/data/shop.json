@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "src": "src/Assets/img/shop1.png",
+        "title": "卡林夫尼"
+    },
+    {
+        "id": 2,
+        "src": "src/Assets/img/shop2.png",
+        "title": "卡雷尔"
+    },
+    {
+        "id": 3,
+        "src": "src/Assets/img/shop3.png",
+        "title": "ve"
+    },
+    {
+        "id": 4,
+        "src": "src/Assets/img/shop4.png",
+        "title": "依蒙菲"
+    },
+    {
+        "id": 5,
+        "src": "src/Assets/img/shop5.png",
+        "title": "蔻驰"
+    }
+]

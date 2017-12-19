@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "src": "src/Assets/img/main1.png",
+        "title": "太空的奥秘",
+        "con": "蓝光"
+    },
+    {
+        "id": 2,
+        "src": "src/Assets/img/main2.png",
+        "title": "世界之大，无奇不有",
+        "con": "奇妙"
+    },
+    {
+        "id": 3,
+        "src": "src/Assets/img/main3.png",
+        "title": "古北水镇美景",
+        "con": "吸引"
+    },
+    {
+        "id": 4,
+        "src": "src/Assets/img/main4.png",
+        "title": "古北水镇夜景",
+        "con": "宁静"
+    },
+    {
+        "id": 5,
+        "src": "src/Assets/img/main5.png",
+        "title": "明早的太阳",
+        "con": "希望"
+    }
+]

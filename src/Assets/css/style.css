@@ -1,0 +1,107 @@
+*{margin: 0;padding: 0;list-style: none;font-weight: 400;font-style: normal;box-sizing: border-box;text-decoration: none;user-select: none;}
+html, body, #wrap{
+    width: 100%;
+    height: 100%;
+}
+.ion-compose{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.ion-arrow-left-a{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0 10px;
+}
+#wrap .bar-footer{
+    display: inline-flex;
+    border-top: 1px solid rgba(153, 154, 161, 0.829);
+    align-items: center;
+    padding: 0;
+}
+#wrap .bar-header .title{
+    left: 50px;
+    right: 50px;
+}
+#wrap .tab-item{
+    max-width: 400px;
+}
+#wrap .view{
+    margin: 45px 0;
+    height: auto;
+    overflow-y: scroll;
+}
+#wrap .nav{
+    top: 0;
+    border: 0;
+    border-bottom: 1px solid #b2b2b2;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.main dt{
+    width: 100%;
+    text-align: center;
+}
+.main img{
+    width: 300px;
+    height: auto;
+}
+.main .condir{
+    flex: 1;
+    overflow-y: scroll;
+}
+.main .tabs-top{
+    width: 100%;
+    height: 49px;
+}
+.food dl{
+
+}
+.footer a .icon{
+    font-size: 24px;
+    height: 28px;
+    line-height: 28px;
+}
+.footer a.active{
+    background: #e42112;
+    color: #fff;
+}
+.footer a.active i{
+    color: #ddd;
+}
+div dl{
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+dl dt{
+    flex: 3;
+}
+dt img{
+    width: 100%;
+    height: auto;
+}
+dl dd{
+    flex: 7;
+    padding-left: 20px;
+}
+div h3{
+    line-height: 45px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+}
+.show{
+    height: 100%;
+}

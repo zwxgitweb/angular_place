@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "src": "src/Assets/img/food1.png"
+    },
+    {
+        "id": 2,
+        "src": "src/Assets/img/food2.png"
+    },
+    {
+        "id": 3,
+        "src": "src/Assets/img/food3.png"
+    },
+    {
+        "id": 4,
+        "src": "src/Assets/img/food4.png"
+    },
+    {
+        "id": 5,
+        "src": "src/Assets/img/food5.png"
+    }
+]
